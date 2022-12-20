@@ -3,6 +3,7 @@ import Head from "next/head"
 import HeroSection from "../components/HeroSection"
 import Contact from "../components/Contact"
 import Products from "../components/Products"
+import Location from "../components/Location"
 import Reviews from "../components/Reviews"
 
 const Home: NextPage = () => {
@@ -41,6 +42,7 @@ const Home: NextPage = () => {
       <Products />
       {/* <Reviews /> */}
       <Contact />
+      <Location />
     </div>
   )
 }

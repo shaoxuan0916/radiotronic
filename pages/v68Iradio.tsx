@@ -29,7 +29,6 @@ import { ProductCard } from "../components/Products"
 import { FcCheckmark } from "react-icons/fc"
 import iRadioLogo from "../public/iRadioLogo.png"
 import v68 from "../public/v68Iradio.png"
-import sirimV68 from "../public/v68IradioSirim.jpeg"
 import { useState } from "react"
 
 type Props = {}

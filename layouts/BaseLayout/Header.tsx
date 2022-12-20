@@ -7,7 +7,7 @@ import { AiOutlineDown } from "react-icons/ai"
 import { HiMenu } from "react-icons/hi"
 import { BiLinkExternal } from "react-icons/bi"
 import { RiWhatsappFill, RiFacebookFill } from "react-icons/ri"
-import LogoImage from "../../public/radiotronic-logo-transparent02.png"
+import LogoImage from "../../public/logo-radiotronic.png"
 
 type Props = {}
 
@@ -26,6 +26,10 @@ const Header = (props: Props) => {
     {
       label: "Contact",
       to: "/#contact",
+    },
+    {
+      label: "Location",
+      to: "/#location",
     },
   ]
 
@@ -63,7 +67,7 @@ const Header = (props: Props) => {
 
           <HStack
             pl={{ lg: "30", xl: "40" }}
-            spacing="16"
+            spacing="12"
             display={{ base: "none", lg: "flex" }}
           >
             {menus.map((menu) => (

@@ -12,7 +12,7 @@ import {
 import { ReactNode } from "react"
 import { BiLinkExternal } from "react-icons/bi"
 import Image from "next/image"
-import logo from "../public/radiotronic-logo-transparent02.png"
+import logo from "../public/logo-radiotronic.png"
 
 const SocialButton = ({
   children,
@@ -71,6 +71,7 @@ export default function SmallCentered() {
           <Link href={"/"}>Home</Link>
           <Link href={"/#products"}>Products</Link>
           <Link href={"/#contact"}>Contact</Link>
+          <Link href={"/#location"}>Location</Link>
         </Stack>
       </Container>
 

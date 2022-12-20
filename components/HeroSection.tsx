@@ -21,7 +21,7 @@ import iRadioLogo from "../public/iRadioLogo.png"
 export default function SplitWithImage() {
   return (
     <Box
-      bgColor={"gray.100"}
+      bgColor={"primary.900"}
       h={{ lg: "100vh" }}
       pt={{ base: 32, lg: 40 }}
       pb={24}
@@ -50,7 +50,8 @@ export default function SplitWithImage() {
               About Us
             </Text>
             <Heading
-              color="primary.900"
+              // color="primary.900"
+              color="white"
               as="h1"
               size={{ base: "2xl", xl: "3xl" }}
             >
@@ -60,7 +61,7 @@ export default function SplitWithImage() {
             <Box pt={{ base: 4, lg: 8 }}>
               <Text
                 rounded="lg"
-                color={"gray.600"}
+                color={"gray.300"}
                 fontSize={{ base: "xl", lg: "2xl" }}
                 mt={{ base: 4, lg: 8 }}
               >
@@ -77,9 +78,9 @@ export default function SplitWithImage() {
                   mt={{ base: 8, lg: 16 }}
                   width="full"
                   variant="solid"
-                  color="white"
-                  bgColor="primary.700"
-                  _hover={{ bgColor: "primary.900" }}
+                  color="primary.900"
+                  bgColor="white"
+                  _hover={{ bgColor: "primary.100" }}
                   type="button"
                 >
                   <Text fontSize="xl">Contact Us Now!</Text>
@@ -102,8 +103,8 @@ export default function SplitWithImage() {
               href={"https://www.radiotronic.com.my/"}
               textAlign="left"
             >
-              <BiLinkExternal color="primary.900" fontSize="1.2rem" />
-              <Text fontWeight="600" color="primary.900">
+              <BiLinkExternal color="white" fontSize="1.2rem" />
+              <Text fontWeight="600" color="white">
                 Back To Our Main Website
               </Text>
             </Flex>
@@ -120,13 +121,13 @@ export default function SplitWithImage() {
             <HStack opacity="" pt={{ base: 16, lg: 24 }} gap={4}>
               <Image
                 src={iRadioLogo}
-                style={{ objectFit: "contain", width: "auto", height: "30px" }}
+                style={{ objectFit: "contain", width: "auto", height: "32px" }}
                 alt="Iradio Logo"
                 priority={true}
               />
               <Image
                 src={MytetraLogo}
-                style={{ objectFit: "contain", width: "auto", height: "30px" }}
+                style={{ objectFit: "contain", width: "auto", height: "32px" }}
                 alt="mytetra logo"
                 priority={true}
               />
