@@ -8,7 +8,7 @@ export default async function (req: NextApiRequest, res: NextApiResponse<any>) {
 
   // SendGrid Api -- rapid-api method
   const data = `{
-    "personalizations":[{"to":[{"email":"shaoxuanhinhua@gmail.com"}],"subject": "${subject}"}],"from":{"email":"${email}"},"content":[{"type":"text/plain","value":"Name: ${name}  Messages: ${message}"}]}`
+    "personalizations":[{"to":[{"email":"contact@radiotronic.com.my"}],"subject": "${subject}"}],"from":{"email":"${email}"},"content":[{"type":"text/plain","value":"Name: ${name}  Messages: ${message}"}]}`
 
   const options = {
     method: "POST",
