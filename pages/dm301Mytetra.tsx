@@ -21,6 +21,7 @@ import { ProductCard } from "../components/Products"
 import { FcCheckmark } from "react-icons/fc"
 import MytetraLogo from "../public/MytetraLogo.png"
 import DM301 from "../public/DM301Mytetra.png"
+import Head from "next/head"
 
 type Props = {}
 
@@ -97,6 +98,9 @@ const tableGeneral: any = [
 const products = (props: Props) => {
   return (
     <>
+      <Head>
+        <title>Mytetra DM301 | Radiotronic Sdn Bhd</title>
+      </Head>
       <Box pt={28} pb={24} px={4}>
         <Container maxW={"1440px"}>
           {/* Heading */}

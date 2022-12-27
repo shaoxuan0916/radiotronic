@@ -21,6 +21,7 @@ import { ProductCard } from "../components/Products"
 import { FcCheckmark } from "react-icons/fc"
 import iRadioLogo from "../public/iRadioLogo.png"
 import cp268 from "../public/cp268iRadio.png"
+import Head from "next/head"
 
 type Props = {}
 
@@ -119,6 +120,9 @@ const tableReceiving = [
 const products = (props: Props) => {
   return (
     <>
+      <Head>
+        <title>Iradio CP268 | Radiotronic Sdn Bhd</title>
+      </Head>
       <Box pt={28} pb={24} px={4}>
         <Container maxW={"1440px"}>
           {/* Heading */}

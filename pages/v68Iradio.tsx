@@ -30,6 +30,7 @@ import { FcCheckmark } from "react-icons/fc"
 import iRadioLogo from "../public/iRadioLogo.png"
 import v68 from "../public/v68Iradio.png"
 import { useState } from "react"
+import Head from "next/head"
 
 type Props = {}
 
@@ -125,6 +126,9 @@ const Products = (props: Props) => {
 
   return (
     <>
+      <Head>
+        <title>Iradio V68 | Radiotronic Sdn Bhd</title>
+      </Head>
       <Box pt={28} pb={24} px={4}>
         <Container maxW={"1440px"}>
           {/* Heading */}

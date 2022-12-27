@@ -12,9 +12,51 @@ const Home: NextPage = () => {
       <Head>
         <title>
           Radiotronic Sdn Bhd | Main Reputable Dealer of Electrical Products and
-          Electronic Components
+          Electronic Components | Walkie Talkie Sabah Malaysia
         </title>
+        <meta
+          content="Radiotronic Sdn Bhd | Main Reputable Dealer of Electrical Products and
+          Electronic Components | Walkie Talkie Sabah Malaysia | https://www.radiotronicwalkietalkie.com.my/ "
+          name="description"
+        />
+        <meta key="og_type" property="og:type" content="website" />
+        <meta
+          content="Radiotronic Sdn Bhd | Main Reputable Dealer of Electrical Products and
+          Electronic Components | Walkie Talkie Sabah Malaysia | https://www.radiotronicwalkietalkie.com.my/ "
+          property="og:title"
+        />
+        <meta
+          content="Radiotronic Sdn Bhd | Main Reputable Dealer of Electrical Products and
+           Electronic Components | Walkie Talkie Sabah Malaysia | https://www.radiotronicwalkietalkie.com.my/ "
+          property="og:description"
+        />
+        <meta key="og_locale" property="og:locale" content="en_IE" />
+        <meta
+          key="og_site_name"
+          property="og:site_name"
+          content="Radiotronic Sdn Bhd"
+        />
 
+        <meta
+          key="og_url"
+          property="og:url"
+          content="https://www.radiotronicwalkietalkie.com.my/"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta
+          content="Radiotronic Sdn Bhd | Main Reputable Dealer of Electrical Products and
+          Electronic Components | Walkie Talkie Sabah Malaysia | https://www.radiotronicwalkietalkie.com.my/ "
+          property="twitter:title"
+        />
+        <meta
+          content="Radiotronic Sdn Bhd | Main Reputable Dealer of Electrical Products and
+          Electronic Components | Walkie Talkie Sabah Malaysia | https://www.radiotronicwalkietalkie.com.my/ "
+          property="twitter:description"
+        />
+        <link
+          rel="canonical"
+          href="https://www.radiotronicwalkietalkie.com.my/"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
