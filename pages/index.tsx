@@ -15,6 +15,10 @@ const Home: NextPage = () => {
           Electronic Components | Walkie Talkie Sabah Malaysia
         </title>
         <meta
+          name="google-site-verification"
+          content="C7di8OJlzoVBNWtxNE26f1XmuKxL8aon1-BvLkSDcKs"
+        />
+        <meta
           content="Radiotronic Sdn Bhd | Main Reputable Dealer of Electrical Products and
           Electronic Components | Walkie Talkie Sabah Malaysia | https://www.radiotronicwalkietalkie.com.my/ "
           name="description"
