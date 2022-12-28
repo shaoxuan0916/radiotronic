@@ -161,10 +161,7 @@ const Products = (props: Props) => {
                 hover={false}
                 imgSrc={v68}
                 name="V68 Iradio"
-                desc="Located in China two-way radio town--Quanzhou, Iradio
-              Electronics Co., Ltdwas established naturally and is a modern
-              technology enterprise integrating R&D, manufacture and
-              distribution in a rapid developing step."
+                desc="Iradio V68 is the best choices for a small, light and affordable walkie talkie. At the same point, it's also provide up to 11 functions, such as additional encryption, emergency alarm etc."
               />
             </GridItem>
             <GridItem colSpan={3}>
