@@ -192,7 +192,7 @@ const Products: React.FC<ProductsProps> = ({}) => {
               noOfLines={3}
               imgSrc={v68}
               name="V68 Iradio"
-              desc="Iradio V68 is the best choices for a small, light and affordable walkie talkie. At the same point, it's also provide up to 11 functions, such as additional encryption, emergency alarm etc."
+              desc="V68 iRadio is the best choices for a small, light and affordable walkie talkie. At the same point, it's also provide up to 11 functions, such as additional encryption, emergency alarm etc."
             />
 
             <ProductCard
