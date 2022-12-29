@@ -100,6 +100,12 @@ const products = (props: Props) => {
     <>
       <Head>
         <title>Mytetra DM301 | Radiotronic Sdn Bhd</title>
+        <meta content="Mytetra DM301" property="og:title" />
+        <meta name="robots" content="index,follow" />
+        <link
+          rel="canonical"
+          href="https://www.radiotronicwalkietalkie.com.my/dm301Mytetra"
+        />
       </Head>
       <Box pt={28} pb={24} px={4}>
         <Container maxW={"1440px"}>

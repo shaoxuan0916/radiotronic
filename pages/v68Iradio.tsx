@@ -128,6 +128,12 @@ const Products = (props: Props) => {
     <>
       <Head>
         <title>Iradio V68 | Radiotronic Sdn Bhd</title>
+        <meta content="iRadio V68" property="og:title" />
+        <meta name="robots" content="index,follow" />
+        <link
+          rel="canonical"
+          href="https://www.radiotronicwalkietalkie.com.my/v68Iradio"
+        />
       </Head>
       <Box pt={28} pb={24} px={4}>
         <Container maxW={"1440px"}>
