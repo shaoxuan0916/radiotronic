@@ -6,7 +6,7 @@ import cp268 from "../public/cp268iRadio.png"
 import DM301 from "../public/DM301Mytetra.png"
 import Head from "next/head"
 
-const products = () => {
+const Products = () => {
   return (
     <>
       <Head>
@@ -89,4 +89,4 @@ const products = () => {
   )
 }
 
-export default products
+export default Products

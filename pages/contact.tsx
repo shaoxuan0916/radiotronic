@@ -18,7 +18,7 @@ import contact2 from "../public/contact2.svg"
 import Head from "next/head"
 import Location from "../components/Location"
 
-const contact = () => {
+const Contact = () => {
   const [name, setName] = useState<any>("")
   const [email, setEmail] = useState<any>("")
   const [subject, setSubject] = useState<any>("")
@@ -211,4 +211,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
